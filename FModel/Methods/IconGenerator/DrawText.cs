@@ -108,9 +108,7 @@ namespace FModel
                 //avoid generator to stop when a string isn't found
             }
             try
-            {
-                CosmeticSource = theItem.GameplayTags.GameplayTagsGameplayTags[Array.FindIndex(theItem.GameplayTags.GameplayTagsGameplayTags, x => x.StartsWith("Cosmetics.Source."))].Substring(17);
-            }
+            { }
             catch (Exception)
             {
                 //avoid generator to stop when a string isn't found
@@ -132,9 +130,7 @@ namespace FModel
                 //avoid generator to stop when a string isn't found
             }
             try
-            {
-                ItemAction = theItem.GameplayTags.GameplayTagsGameplayTags[Array.FindIndex(theItem.GameplayTags.GameplayTagsGameplayTags, x => x.StartsWith("Athena.ItemAction."))].Substring(18);
-            }
+            { }
             catch (Exception)
             {
                 //avoid generator to stop when a string isn't found
@@ -151,9 +147,7 @@ namespace FModel
                 //avoid generator to stop when a string isn't found
             }
             try
-            {
-                CosmeticUff = theItem.GameplayTags.GameplayTagsGameplayTags[Array.FindIndex(theItem.GameplayTags.GameplayTagsGameplayTags, x => x.StartsWith("Cosmetics.UserFacingFlags."))];
-            }
+            { }
             catch (Exception)
             {
                 //avoid generator to stop when a string isn't found
@@ -167,9 +161,7 @@ namespace FModel
                 //avoid generator to stop when a string isn't found
             }
             try
-            {
-                DefenderType = theItem.GameplayTags.GameplayTagsGameplayTags[Array.FindIndex(theItem.GameplayTags.GameplayTagsGameplayTags, x => x.StartsWith("NPC.CharacterType.Survivor.Defender."))].Substring(36);
-            }
+            { }
             catch (Exception)
             {
                 //avoid generator to stop when a string isn't found
